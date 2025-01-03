@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    background-color: rgb(109, 35, 109);
+}
+.main{
+    color: white;
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(141, 106, 141);
+    padding: 30px;
+    padding-bottom: 70px;
+   
+}
+.ade-image{
+    text-align: center;
+    position: relative;
+}
+.ade-image h2{
+    color: black;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 350px;
+}
+.ade-image img{
+    object-fit: cover;
+    height: 400px;
+    
+}
+.about{
+    text-align: center;
+    text-transform: uppercase;
+}
+.about p{
+    font: 50px;
